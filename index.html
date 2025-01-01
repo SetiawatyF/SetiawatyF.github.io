@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatma Setiawati</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="navbar z-50 bg-base-100 fixed">
+      <nav class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <a href="#profile" class="btn btn-ghost text-xl">Fatma Setiawati</a>
+      </nav>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal">
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a
+          href="#experience"
+          role="button"
+          class="btn rounded-full bg-base-100 border-slate-300"
+          >See my work</a
+        >
+      </div>
+    </header>
+    <div class="lg:h-screen w-full grid lg:grid-cols-2 pt-16">
+      <aside class="hero text-center lg:h-full">
+        <div class="hero-content">
+          <div class="max-w-md">
+            <div class="avatar mb-4">
+              <div class="w-40 rounded-xl">
+                <img src="./images/profile.jpg" />
+              </div>
+            </div>
+            <h1 class="text-4xl leading-snug font-semibold">
+              I'm Fatma Setiawati
+            </h1>
+            <p class="text-lg leading-relaxed">
+              Web Developer based in Bekasi, Indonesia
+            </p>
+          </div>
+        </div>
+      </aside>
+      <hr class="lg:hidden border-slate-300" />
+      <main class="lg:overflow-y-auto">
+        <section id="profile" class="hero text-center h-60 lg:h-96">
+          <div class="hero-content">
+            <div class="max-w-md">
+              <h2 class="text-3xl leading-snug font-medium mb-6">
+                Passionate creating great experiences for Web Developer
+              </h2>
+              <a
+                href="mailto:fatmasetia2@gmail.com"
+                target="_blank"
+                role="button"
+                class="btn rounded-full bg-black text-white mr-1"
+                >Talk with me</a
+              >
+              <a
+                href="#experience"
+                role="button"
+                class="btn rounded-full bg-base-100 border-slate-300"
+                >See my work</a
+              >
+            </div>
+          </div>
+        </section>
+        <hr class="border border-slate-300" />
+        <section id="education" class="px-2 py-4 lg:max-w-full max-w-lg mx-auto">
+          <h2 class="text-xl leading-snug font-medium mb-2 font-semibold">
+            Education
+          </h2>
+          <div
+            class="flex py-2 px-4 gap-2 bg-base-200 border border-slate-300 rounded-full"
+          >
+            <div class="avatar">
+              <div class="w-14 rounded-full">
+                <img src="./images/smk-tamtama-sidareja.jpg" />
+              </div>
+            </div>
+            <div class="grow">
+              <p class="font-semibold line-clamp-1">SMK Tamtama 1 Sidareja</p>
+              <p class="line-clamp-1">Teknik Komputer Jaringan</p>
+            </div>
+            <span class="my-auto line-clamp-1">2017 &mdash; 2020</span>
+          </div>
+        </section>
+        <hr class="border border-slate-300" />
+        <section id="experience" class="px-2 py-4 lg:max-w-full max-w-lg mx-auto">
+          <h2 class="text-xl leading-snug font-medium mb-2 font-semibold">
+            Working Experience
+          </h2>
+          <div
+            class="flex py-2 px-4 gap-2 bg-base-200 border border-slate-300 rounded-full"
+          >
+            <div class="avatar">
+              <div class="w-14 rounded-full">
+                <img src="./images/mandom.jpeg" />
+              </div>
+            </div>
+            <div class="grow">
+              <p class="font-semibold line-clamp-1">Operator Packing</p>
+              <p class="line-clamp-1">PT. Mandom Indonesia Tbk.</p>
+            </div>
+            <span class="my-auto line-clamp-1">September 2020 &mdash; <i>present</i></span>
+          </div>
+        </section>
+        <hr class="border border-slate-300" />
+        <section id="contact" class="px-2 py-4 lg:max-w-full max-w-lg mx-auto">
+          <h2 class="text-xl leading-snug font-medium mb-2 font-semibold">
+            Contact Us
+          </h2>
+          <div class="grid md:grid-cols-2 gap-2">
+            <a
+              href="mailto:fatmasetia2@gmail.com"
+              target="_blank"
+              class="bg-base-200 hover:bg-base-300 border border-slate-300 rounded-full py-2 px-4 hover:shadow-lg"
+            >
+              <p class="font-semibold">Email :</p>
+              <p>fatmasetia2@gmail.com</p>
+            </a>
+            <a
+              href="telp:6281229552122"
+              target="_blank"
+              class="bg-base-200 hover:bg-base-300 border border-slate-300 rounded-full py-2 px-4 hover:shadow-lg"
+            >
+              <p class="font-semibold">Phone :</p>
+              <p>081229552122</p>
+            </a>
+            <a
+              href="https://maps.app.goo.gl/hH2zSA5HLN5831ZR7"
+              target="_blank"
+              class="bg-base-200 hover:bg-base-300 border border-slate-300 rounded-full py-2 px-4 hover:shadow-lg"
+            >
+              <p class="font-semibold">Address :</p>
+              <p>Bekasi, Indonesia</p>
+            </a>
+            <a
+              href="https://www.instagram.com/setiawatyf_"
+              target="_blank"
+              class="bg-base-200 hover:bg-base-300 border border-slate-300 rounded-full py-2 px-4 hover:shadow-lg"
+            >
+              <p class="font-semibold">Instagram :</p>
+              <p>@setiawatyf_</p>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
